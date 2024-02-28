@@ -2,7 +2,7 @@ name: health-check
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # This runs the action every day at midnight
+    - cron: '0,10,20,30,40,50 * * * *' 
 
 jobs:
   build:
